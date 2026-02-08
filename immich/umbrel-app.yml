@@ -2,7 +2,7 @@ manifestVersion: 1.1
 id: immich
 category: files
 name: Immich
-version: "v2.5.3"
+version: "v2.5.5"
 tagline: High-performance photo and video backup solution
 description: >-
   An open-source and high-performance self-hosted backup solution for the videos and photos on your mobile device
@@ -49,15 +49,9 @@ releaseNotes: >-
 
 
   This release includes several bug fixes and improvements:
-    - Fixed reset and unsaved change states in editor
-    - Fixed notification behavior when release check is disabled
-    - Fixed asset viewer navigation across memory boundaries
-    - Fixed upload progress bar flickering
-    - Fixed stale values in edit user form after save
-    - Fixed album page rebuilding when resuming app
-    - Fixed backspace accidentally triggering delete modals
-    - Fixed metadata extraction race condition
-    - Fixed zoom reset when navigating between assets
+    - Fixed an issue where changing the timezone on the web changes the time instead of the timezone
+    - Fixed an issue where background task on iOS don't get triggered as often
+    - Fixes issues regarding the usage of self-signed certificate and mTLS on the mobile app
 
 
   Full release notes are found at https://github.com/immich-app/immich/releases
